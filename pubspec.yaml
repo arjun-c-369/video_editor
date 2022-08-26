@@ -15,7 +15,11 @@ dependencies:
   video_player: ^2.1.12
   path_provider: ^2.0.2
   flutter_ffmpeg: ^0.4.2
-  video_thumbnail: 0.5.0
+  #video_thumbnail: 0.5.0
+  video_thumbnail:
+    git:
+      url: https://github.com/arjun-c-369/video_thumbnail.git
+      ref: 75ff5d89f04bca2eb970017a2cdd67e548bb39d4
 
 dev_dependencies:
   flutter_test:
